@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Comf";
+    src: url(./Fonts/Comfortaa-VariableFont_wght.ttf) format("truetype");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    padding: 1rem;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(214, 236, 255);
+}
+
+ul li:hover {
+    color: rgb(214, 236, 255);
+}
+
+ul li {
+    display: flex;
+    color: white;
+    border: solid;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    list-style: none;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top {
+    margin-bottom: auto;
+    display: flex;
+    background-color: black;
+    justify-content: start;
+}
+
+#frankfurt {
+    margin: 1rem;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#bodytit {
+    border-radius: 2rem 2rem 0rem 0rem;
+    font-family: "Comf", sans-serif;
+    font-weight: 900;
+}
+
+.theholders {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(214, 236, 255);
+}
+
+#imageholder {
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+
+#cityimage {
+    width: 35vw;
+    border-radius: 1rem;
+}
+
+footer {
+    font-family: "Comf", sans-serif;
+    font-size: 2rem;
+    background-color: rgba(160, 210, 254, 0.82);
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-self: center;
+    margin-top: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

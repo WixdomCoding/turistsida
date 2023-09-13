@@ -1,0 +1,9 @@
+#bread {
+    margin: auto;
+    background-color: rgb(209, 234, 255);
+    height: 100%;
+    width: 75vw;
+    padding: 2rem;
+    border: solid black 2px;
+    border-radius: 2rem;
+}
